@@ -122,6 +122,14 @@ div.barra{
     background-color: var(--primario);
     padding: 5px 0 ;
 }
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 2;
+}
 div.logo{
     width: 30%;
     float: left;
