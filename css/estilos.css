@@ -295,7 +295,7 @@ div.contenedor-hijo p span {
         height: auto;
         top:27%; 
         left: 60%;
-        background-color: antiquewhite;
+        
     }
 
     div.contenedor-hijo p{
@@ -762,7 +762,64 @@ div.info-pagos p{
     padding-bottom: 0;
 }
 
+@media only screen and (max-width:400px){
+    div.titulo-bienvenida{
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-align: center;
+    }
 
+    div.info-promocion1{
+        position: absolute;
+        top: 47%;
+        left: 43%;
+        width: 57%;
+        height: auto;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7rem;
+        color: #000000;
+        font-weight: 500;
+        
+    }
+    
+    
+    div.info-promocion1 p span{
+        font-weight: bold;
+    }
+
+    div.button-registrate {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        top: 75%;
+        right: 0;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+    div.button-registrate .btn-registrate{
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: var(--primario);
+        color: #ffffff;
+        border: 0px solid var(--primario);
+        padding: 10px;
+        transition: all .3s ease-out;
+    }
+
+
+
+}
 
 @media only screen and (max-width:768px){
 
@@ -779,6 +836,9 @@ div.info-pagos p{
         padding: 0 0 20px 0;
     }
 
+
+
+    
     div.contenedor-iconos-pago{
         display:flex;
         flex-direction: column;
