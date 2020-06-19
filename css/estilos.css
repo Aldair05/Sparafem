@@ -486,7 +486,7 @@ div.info-tipos-alopecia p span {
 /* Tecnologias */
 
 div.fondo-mujer-tecnologia{
-    background-image: url("/img/Tecnologia/mujer2.jpg");
+    background-image: url("img/Tecnologia/mujer2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
