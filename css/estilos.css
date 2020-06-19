@@ -226,12 +226,20 @@ div.menu-movil:hover{
     cursor: pointer;
 }
 
-/* banner principal */
 
+/* banner principal */
+/* .fondo-principal{
+    background-image: url("/img/fondo3.jpg");
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
 
 div.contenedor-padre{
     position: relative;
+   
 }
+
 
 div.contenedor-padre .imagen-fluida{
     width: 100%;
@@ -239,18 +247,38 @@ div.contenedor-padre .imagen-fluida{
 }
 
 div.contenedor-hijo{
-    display: none;
+
     position: absolute;
+    align-items: center;
     width: 40%;
     height: auto;
-    top:32%;
-    right: 1%;
+    top:27%; 
+    left: 60%;
+ 
+
 
 }
 
+div.contenedor-hijo p{
+    color: var(--secundario);
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+   
+    
+    /* background-color: red; */
+    
+}
+
+div.contenedor-hijo p span {
+    font-size: 4.5rem;
+    color: var(--primario);
+    line-height: 70px;
+    font-weight: 500;
+    
+}
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     
     div.contenedor-padre{
         position: relative;
@@ -261,31 +289,32 @@ div.contenedor-hijo{
         height: auto;
     }
     div.contenedor-hijo{
-        display: block;
         position: absolute;
+        align-items: center;
         width: 40%;
         height: auto;
-        top:35%;
-        right: 1%;
-        /* background-color: burlywood; */
+        top:27%; 
+        left: 60%;
+        background-color: antiquewhite;
     }
 
     div.contenedor-hijo p{
         color: var(--secundario);
-        font-size: 1.3rem;
+        font-size: .6rem;
         font-family: 'Roboto', sans-serif;
         
         
     }
     
     div.contenedor-hijo p span {
-        font-size: 3rem;
+        font-size: 1.8rem;
         color: var(--primario);
-        line-height: 50px;
+        line-height: 35px;
         font-weight: 500;
     }
  
 }
+
 
 /* Factores de la alopecia  */
 
@@ -455,6 +484,14 @@ div.info-tipos-alopecia p span {
 
 
 /* Tecnologias */
+
+div.fondo-mujer-tecnologia{
+    background-image: url("/img/Tecnologia/mujer2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
 
 div.contenedor-imagen-iconos{
     position: relative;
@@ -759,8 +796,8 @@ div.info-pagos p{
 /* Contacto */
 
 div.contacto-fondo{
-    /* background-image: url("/img/fondo-contacto.png"); */
     background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("img/fondo-contacto.png");
+    /* background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("/img/fondo-contacto.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
