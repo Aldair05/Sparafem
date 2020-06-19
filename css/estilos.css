@@ -796,7 +796,7 @@ div.info-pagos p{
 /* Contacto */
 
 div.contacto-fondo{
-    background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url('https://subefotos.com/ver/?3fa5799996a749041f17dc779be3628fo.jpg');
+    background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url(https://subefotos.com/ver/?3fa5799996a749041f17dc779be3628fo.jpg);
     /* background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("/img/fondo-contacto.png"); */
     background-repeat: no-repeat;
     background-size: cover;
