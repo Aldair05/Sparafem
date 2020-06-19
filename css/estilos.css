@@ -486,7 +486,8 @@ div.info-tipos-alopecia p span {
 /* Tecnologias */
 
 div.fondo-mujer-tecnologia{
-    background-image: url("http://imgfz.com/i/pIu3L5z.jpeg");
+    /* background-image: url("http://imgfz.com/i/pIu3L5z.jpeg"); */
+    background-image: url("/img/Tecnologia/mujer2.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -796,8 +797,8 @@ div.info-pagos p{
 /* Contacto */
 
 div.contacto-fondo{
-    background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("http://imgfz.com/i/zikU7SN.jpeg");
-    /* background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("/img/fondo-contacto.png"); */
+    /* background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("http://imgfz.com/i/zikU7SN.jpeg"); */
+    background-image: linear-gradient(180deg, rgba(4,4,4,0.37298669467787116) 0%, rgba(4,4,4,1) 100%),url("/img/fondo-contacto.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
