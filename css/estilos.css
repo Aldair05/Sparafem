@@ -539,6 +539,21 @@ div.info-iconos p span {
     font-weight: bold;
 }
 
+@media only screen and (max-width:400px){
+
+    div.info-iconos p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.4rem;
+        color: var(--secundario);
+    }
+    
+    div.info-iconos p span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+}
+
+
 
 div.contenedor-mujer img{
     width: 100%;
@@ -821,7 +836,7 @@ div.info-pagos p{
     div.button-registrate .btn-registrate{
         
         font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 600;
         background-color: var(--primario);
         color: #ffffff;
