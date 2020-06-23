@@ -46,10 +46,52 @@ h2::after{
     margin-top: 3px;
 }
 
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #8c8c8c !important;
+    font-weight: 500 !important;
+    text-align: start;
+    font-size: 3rem !important;
+    
+}
+
+h3::after{
+    content: '';
+    background-image: url(../img/separador.png);
+    height: 5px;
+    width: 42px;
+    display: block;
+    margin-top: 4px;
+
+}
+
+h4{
+    font-family: var(--fuente);
+    color: var(--secundario) !important;
+    font-size: 2.3rem !important;
+}
+
+h4::after{
+    content: '';
+    background-image: url(../img/separador.png);
+    height: 5px;
+    width: 42px;
+    display: block;
+    margin-top: 4px;
+}
+
 .contenedor{
     width: 95%;
     margin: 0 auto;
 }
+
+
+@media only screen and (max-width:480px){
+    .contenedor{
+        width: 90%;
+    }
+}
+
 
 @media only screen and (min-width:480px){
     .contenedor{
@@ -1060,3 +1102,642 @@ div.iconos-redes ul a:hover{
     cursor: pointer;
     color: var(--primario);
 }
+
+
+/* ESTILOS PARA INDEX 2 */
+
+ /* Header principal  */
+
+ div.header-principal{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    div.info-header {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    } 
+
+    h3{
+       text-align: center; 
+       
+    }
+
+    h3::after{
+        content: '';
+        background-image: url(../img/separador.png);
+        height: 5px;
+        width: 50px;
+        display: block;
+        margin-top: 4px;
+        margin: 0 auto;
+        text-align: center;
+    
+    }
+
+
+    div.info-header .titulo{
+        font-size: 1.5rem;
+        font-family: var(--secundario);
+    
+    }
+    
+    div.info-header p{
+        text-align: center;
+        font-family: var(--fuente);
+        font-size: 0.9rem;
+        color: var(--secundario);
+        margin-bottom: 7px;
+        font-weight: 400;
+    }
+    
+    div.info-header p span{
+        font-family: var(--fuente);
+        
+    } 
+
+
+
+@media only screen and (min-width:768px){
+
+
+
+    div.header-principal{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    
+    div.info-header {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 50%;
+        height: auto;
+    } 
+    
+    
+    div.info-header .titulo{
+        font-size: 1.5rem;
+        font-family: var(--secundario);
+    
+    }
+
+    h3{
+        text-align: start; 
+        font-size: 2.8rem !important;
+     }
+ 
+     h3::after{
+         content: '';
+         background-image: url(../img/separador.png);
+         height: 5px;
+         width: 50px;
+         display: block;
+         margin-top: 4px;
+         margin: 0 ;
+         /* text-align: center; */
+     
+     }
+    
+    div.info-header p{
+        text-align: start;
+        font-family: var(--fuente);
+        font-size: 0.9rem;
+        color: var(--secundario);
+        margin-bottom: 7px;
+        font-weight: 400;
+    }
+    
+    div.info-header p span{
+        font-family: var(--fuente);
+        font-weight: bold;
+    }
+    
+    
+}
+
+
+div.button-and-iconos{
+    display: flex;
+    flex-direction: row;
+}
+
+div.contenedor-iconos-pago-header{
+    display:inline-block;
+}
+div.button-tienda{
+    padding-right: 20px;
+}
+div.button-tienda .btn-success{
+    font-family: var(--fuente);
+    font-size: 1.2rem;
+    background-color: var(--primario);
+    border-radius: 0px;
+    border-color: #ffffff;
+    transition: all .4s ease-in-out;
+    
+}
+
+div.button-tienda .btn-success:hover{
+    background-color: #ffffff;
+    color: var(--secundario);
+    border-color: var(--primario);
+}
+
+div.button-tienda .btn-success:focus{
+    border: solid 1px var(--primario)!important;
+    outline: none;
+    box-shadow: var(--primario);
+}
+
+
+
+div.button-tienda .btn-success:hover:active{
+    background: var(--primario);
+}
+
+
+@media only screen and (max-width:768px){
+    div.button-and-iconos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div.explorador-pagos{
+        text-align: center;
+    }
+}
+
+/* Cronologia de cambios */
+
+/* mobile Firts */
+
+div.cronologia-principal{
+    position: relative;
+}
+
+
+div.info-cronologia {
+    position: relative;
+
+}
+
+.titulo-cronologia{
+    color:var(--secundario);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 10px;
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+}
+
+h4{
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+h4::after{
+    content: '';
+    background-image: url(../img/separador.png);
+    height: 5px;
+    width: 42px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+div.info-15-dias{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.tamanio-numero span{
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    color:var(--primario);
+    font-weight: bold;
+    font-weight: 600;
+    
+}
+
+.porcentaje{
+    font-family: var(--fuente);
+    color:var(--secundario);
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.porcentaje span{
+    font-weight: bold;
+}
+
+.tamanio-numero {
+    color:var(--primario);
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+div.contenedor-porcentaje{    
+    padding-top: 19px;
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+    /* background-color: antiquewhite; */
+}
+
+
+
+div.info-30-dias{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    height: auto; 
+    align-items: center;
+    text-align: center;
+}
+
+
+div.info-40-dias{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (min-width:768px){
+
+
+    
+    div.cronologia-principal{
+        position: relative;
+    }
+    
+ 
+
+    
+    div.info-cronologia {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 70%;
+        height: auto;
+        /* background-color: antiquewhite; */
+    }
+    
+    .titulo-cronologia{
+        color:var(--secundario);
+        font-size: 1.6em;
+        font-weight: 400;
+        line-height: 10px;
+        width: 100%;
+        height: auto;
+        text-align: start;
+    }
+
+    h4{
+        font-size: 2.2rem !important;
+        text-align: start;
+    }
+
+    h4::after{
+        margin: 0px;
+        text-align: start;
+    }
+
+    div.info-15-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        width: 100%;
+        height: auto;
+        text-align: start;
+         
+    }
+        
+    .tamanio-numero span{
+        font-family: var(--fuente);
+        font-size: 2em;
+        color:var(--primario);
+        font-weight: bold;
+        font-weight: 600;
+        
+    }
+    
+    .porcentaje{
+        font-family: var(--fuente);
+        color:var(--secundario);
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    
+    .porcentaje span{
+        font-weight: bold;
+    }
+    
+    .tamanio-numero {
+        color:var(--primario);
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    
+    div.contenedor-porcentaje{    
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        height: auto;
+        /* background-color: antiquewhite; */
+    }
+    
+    
+    
+    div.info-30-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        width: 100%;
+        height: auto; 
+        text-align: start;  
+    }
+    
+    
+    div.info-40-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        width: 100%;
+        height: auto;
+        text-align: start;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1200px){
+
+    div.cronologia-principal{
+        position: relative;
+    }
+    
+    
+    div.info-cronologia {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 70%;
+        height: auto;
+        /* background-color: antiquewhite; */
+    }
+    
+    div.info-15-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        width: 100%;
+        height: auto;
+         
+    }
+
+    .titulo-cronologia{
+        color:var(--secundario);
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 10px;
+        width: 100%;
+        height: auto;
+        text-align: start;
+    }
+
+    h4{
+        font-size: 1.6rem !important;
+        text-align: start;
+    }
+
+    h4::after{
+        margin: 0px;
+        text-align: start;
+    }
+
+        
+    .tamanio-numero span{
+        font-family: var(--fuente);
+        font-size: 2.2rem;
+        color:var(--primario);
+        font-weight: bold;
+        font-weight: 600;
+        
+    }
+    
+    .porcentaje{
+        font-family: var(--fuente);
+        color:var(--secundario);
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    
+    .porcentaje span{
+        font-weight: bold;
+    }
+    
+    .tamanio-numero {
+        color:var(--primario);
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    
+    div.contenedor-porcentaje{    
+        padding-top: 15px;
+        padding-left: 10px;
+        width: 100%;
+        height: auto;
+        /* background-color: antiquewhite; */
+    }
+    
+    
+    div.info-30-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        width: 100%;
+        height: auto;   
+    }
+    
+    
+    div.info-40-dias{
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Tecnologia index 2 */
+div.content-tecnologia{
+    position: relative;
+}
+
+div.content-tecnologia .columna{
+    text-align: center;
+}
+
+div.info-logotipo{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: auto;
+    /* background-color: thistle; */
+}
+
+div.info-iconos-tecnologia{
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    height: auto;
+}
+
+div.info-iconos-tecnologia p{
+    font-family: var(--fuente);
+    font-size: 0.9em;
+    font-weight: 300;
+    color: var(--secundario);
+}
+
+div.info-iconos-tecnologia p span {
+    color: var(--secundario);
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    
+    div.info-logotipo .img-col{
+        width: 22%;
+        height: auto;
+    }
+
+    div.info-iconos-tecnologia p{
+        font-size: 0.6em;
+    }
+
+}
+
+/* Blog */
+.content-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    /* min-height: 30vh; */
+    
+}
+
+@media only screen and (max-width:768px){
+    
+    div.content-blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top:6rem;
+    }
+
+    div.content-blog .columna{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    div.content-blog .columna h2{
+        text-align: center !important;
+    }
+
+    div.content-blog .columna h2::after{
+        margin: 0 auto !important;
+        width: 30px;
+    }
+    
+
+
+}
+
+
+ .content-blog .columna{
+    width: 50%;
+}
+
+
+.content-blog .columna .img-col{
+    width: 100%;
+    height: 100%;
+}
+
+div.content-blog .columna h2{
+    text-align: initial;
+}
+
+div.content-blog .columna h2::after{
+    margin: 0;
+}
+
+div.content-blog .columna .subtitle{
+    color: var(--secundario);
+    font-family: var(--fuente);
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+div.content-blog .columna .title{
+    color: var(--secundario);
+    font-family: var(--fuente);
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 20px;   
+}
+
+
+div.content-blog .columna .message{
+    color: var(--secundario);
+    font-family: var(--fuente);
+    font-size: .9em;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+
+div.content-blog .columna .btn-sparafem{
+
+    border-radius: 0;
+    background-color: var(--primario);
+    color: #ffffff;
+    font-family: var(--fuente);
+    font-size: 1em;
+    padding: 5px 25px 5px 25px;
+}
+

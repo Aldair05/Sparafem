@@ -13,7 +13,7 @@ $(function (){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
 
-        console.log(scroll);
+        // console.log(scroll);
         if(scroll > windowHeight){
             $('.barra').addClass('fixed');
             $('body').css({'margin-top':barraAltura+'px'});
