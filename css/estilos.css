@@ -157,6 +157,14 @@ nav.navegacion-sesion a i{
 }
 
 
+@media only screen and (max-width:365px){
+
+    nav.navegacion-sesion a{
+        margin-right: 5px;
+        font-size: 0.6rem;
+    }
+}
+
 
 
   /* Barra Menu*/
@@ -423,6 +431,8 @@ div.explorador .span-bold{
     }
 
 }
+
+
 
 
 /* Tipos de alopecia  */
@@ -1720,6 +1730,14 @@ div.content-blog .columna .title{
     font-weight: bold;
     line-height: 20px;   
 }
+
+@media only screen and (max-width:360px){
+
+    div.content-blog .columna .title{
+        font-size: 1.5em;
+    }
+}
+
 
 
 div.content-blog .columna .message{
