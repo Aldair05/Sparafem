@@ -1626,7 +1626,7 @@ div.info-logotipo{
 
 div.info-iconos-tecnologia{
     position: absolute;
-    top: 53%;
+    top: 56%;
     width: 100%;
     height: auto;
 }
@@ -1655,6 +1655,23 @@ div.info-iconos-tecnologia p span {
     }
 
 }
+
+
+@media only screen and (max-width:460px){
+
+    div.info-iconos-tecnologia p{
+        font-size: 0.5em;
+    }
+}
+
+
+@media only screen and (max-width:340px){
+
+    div.info-iconos-tecnologia p{
+        font-size: 0.45em;
+    }
+}
+
 
 /* Blog */
 .content-blog{
