@@ -1776,3 +1776,73 @@ div.content-blog .columna .btn-sparafem{
     padding: 5px 25px 5px 25px;
 }
 
+/* Index Contacto  */
+
+div.content-contacto {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+div.content-contacto p{
+    color: var(--secundario);
+    font-family: var(--fuente);
+}
+
+div.formulario h3{
+    padding-bottom: 30px;
+}
+div.numero-contacto{
+    text-align: end;
+    line-height: 70px;
+}
+
+
+div.numero-contacto span{
+    color: var(--secundario);
+    font-family: var(--fuente);
+    font-size: 1.0em;
+
+}
+
+div.numero-contacto i{
+
+    color: var(--primario);
+    font-size: 1.5em;
+    padding-left: 10px;
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    div.numero-contacto{
+        text-align: center;
+        line-height: 70px;
+    }
+
+    div.imagen-contacto{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    
+}
+
+div.imagen-contacto {
+    margin-left: 50px;
+}
+
+div.imagen-contacto img{
+    width: 80%;
+    height: auto;
+
+    
+}
+
+div.fondo-footer-contacto{
+    background-image: url("http://imgfz.com/i/deltEqW.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
