@@ -1871,8 +1871,8 @@ div.imagen-contacto img{
 }
 
 div.fondo-footer-contacto{
-    /* background-image: url("http://imgfz.com/i/deltEqW.jpeg"); */
-    background-image: url("/img/fondo-contacto.png");
+    background-image: url("http://imgfz.com/i/deltEqW.jpeg");
+    /* background-image: url("/img/fondo-contacto.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
